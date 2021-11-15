@@ -1,4 +1,4 @@
-//Printing words in encrypted form using c
+//Printing words in encrypted (Ceasar Cipher) form using c
 #include<stdio.h>
 int main()
 {
@@ -8,7 +8,7 @@ int main()
     gets(a);
     for(i=0;a[i]!='\0';i++)
     {
-        j=a[i]+1;
+        j=a[i]+3;
         printf("%c",j);
     }
     return 0;
